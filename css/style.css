@@ -22,25 +22,35 @@ nav {
 }
 
 .logo {
+    padding: 10px 0;
+    cursor: default;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.logo-text {
     font-family: 'Arial Black', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    padding: 10px 0;
     line-height: 1;
-    cursor: default; 
 }
 
 .logo-apex {
-    color: #ff4500; 
+    color: #ff4500;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 
 .logo-velocity {
-    color: #ffffff;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    color: #ffffff; 
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); 
 }
-
-
 
 nav ul {
     list-style: none;
@@ -94,7 +104,7 @@ nav ul li a.active {
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -112,14 +122,14 @@ nav ul li a.active {
     display: flex;
     justify-content: space-between; 
     gap: 15px;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .feature-card {
     background-color: #1a1a20;
     padding: 15px;
     border-radius: 5px;
-    flex: 1 1 250px; 
+    flex: 1 1 250px;
     text-align: center;
     border-top: 2px solid #ff4500;
 }
@@ -129,7 +139,6 @@ nav ul li a.active {
     font-size: 18px;
 }
 
-/* --- CARS PAGE STYLES --- */
 .page-hero {
     text-align: center;
     padding: 40px 15px;
@@ -155,7 +164,7 @@ nav ul li a.active {
 
 .top-car-card {
     text-align: center;
-    background-color: #0d0d10;
+    background-color: #0d0d10; 
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
