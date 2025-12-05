@@ -209,7 +209,7 @@ nav ul li a.active {
 
 .car-specs-table td:nth-child(5) {
     color: gold; 
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 
@@ -219,6 +219,6 @@ footer {
     padding: 15px;
     background-color: #1a1a20;
     color: #777;
-    font-size: 13px;
+    font-size: 15px;
     border-top: 1px solid #333;
 }
